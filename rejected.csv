@@ -1,0 +1,5 @@
+source_record,customer_id,full_name,email,age,join_date,status
+3,002,Bob Singh,bob.example.com,twenty,2026-10-01,active
+4,003,,carol@example.com,19,2026-02-30,pending
+6,004,Dev Kumar,,-5,2026-10-03,unknown
+8,006,Faisal Khan,faisal..khan@example.com,200,2026-10-04,inactive

@@ -1,0 +1,22 @@
+source_record,column,issue,original_value,cleaned_value,action
+2,full_name,surrounding_whitespace, Alice Sharma ,Alice Sharma,trimmed
+2,email,formatting,alice@EXAMPLE.COM,alice@example.com,normalized
+3,email,invalid_email,bob.example.com,bob.example.com,review
+3,age,invalid_integer,twenty,twenty,review
+3,join_date,formatting,01/10/2026,2026-10-01,normalized
+4,full_name,surrounding_whitespace,   ,,trimmed
+4,full_name,missing_required,   ,,review
+4,join_date,invalid_date,2026-02-30,2026-02-30,review
+5,join_date,formatting,01/10/2026,2026-10-01,normalized
+6,email,missing_marker,N/A,,cleared
+6,email,missing_required,N/A,,review
+6,age,below_minimum,-5,-5,review
+6,status,invalid_choice,unknown,unknown,review
+7,full_name,surrounding_whitespace, Eva Roy ,Eva Roy,trimmed
+7,join_date,formatting,03/10/2026,2026-10-03,normalized
+8,email,invalid_email,faisal..khan@example.com,faisal..khan@example.com,review
+8,age,above_maximum,200,200,review
+9,age,missing_marker,NULL,,cleared
+9,age,missing_optional,NULL,,retained
+9,join_date,missing_optional,,,retained
+5,,duplicate_row,,,removed
