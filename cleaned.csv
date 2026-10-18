@@ -1,8 +1,0 @@
-customer_id,full_name,email,age,join_date,status
-001,Alice Sharma,alice@example.com,22,2026-10-01,active
-002,Bob Singh,bob.example.com,twenty,2026-10-01,active
-003,,carol@example.com,19,2026-02-30,pending
-004,Dev Kumar,,-5,2026-10-03,unknown
-005,Eva Roy,eva@example.com,25,2026-10-03,active
-006,Faisal Khan,faisal..khan@example.com,200,2026-10-04,inactive
-007,Grace Das,grace@example.com,,,pending
